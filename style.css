@@ -25,12 +25,9 @@ main {
     margin: auto;
 }
 
-.intro, .contact-info, .bio, .cta {
-    margin-bottom: 30px;
-}
-
 .intro {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .intro .profile-picture {
@@ -41,70 +38,31 @@ main {
     margin-bottom: 10px;
 }
 
-.contact-info {
+.intro h4 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #004080;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.action-button {
+    display: inline-block;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
     text-align: center;
 }
 
-.contact-info a.download-button {
-    display: inline-block;
-    background-color: #004080;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.contact-info a.download-button:hover {
-    background-color: #003366;
-}
-
-.bio {
-    background-color: #f1f1f1;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.cta-button {
-    display: inline-block;
-    background-color: #004080;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.cta-button:hover {
-    background-color: #003366;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-form label {
-    margin-bottom: 5px;
-}
-
-.contact-form input, .contact-form textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.contact-form button {
-    background-color: #004080;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.contact-form button:hover {
+.action-button:hover {
     background-color: #003366;
 }
 
