@@ -14,7 +14,7 @@ header {
 }
 
 .header-image {
-    background: url('cnplogo.jpg') no-repeat center center;
+    background: url('header.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     height: auto;
