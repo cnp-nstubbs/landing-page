@@ -8,15 +8,31 @@ body {
 }
 
 header {
-    background-color: #146776; /* Pantone 7474 */
-    color: white;
+    position: relative;
     text-align: center;
-    padding: 20px 0;
+    color: white;
 }
 
-header .logo {
-    width: 200px;
+.header-image {
+    background: url('4CCD8085-537F-469B-AAB9-71ADADEF427C.jpeg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
     height: auto;
+    padding-top: 14.65%; /* Aspect ratio (height/width * 100%) to maintain 1584x232 ratio */
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better text visibility */
+    padding: 10px;
 }
 
 main {
@@ -88,6 +104,10 @@ footer a:hover {
 
 /* Media Queries for Tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
+    .header-text {
+        font-size: 1.2em;
+    }
+    
     .intro .profile-picture {
         width: 200px;
         height: 200px;
@@ -106,5 +126,25 @@ footer a:hover {
     .action-button {
         width: 250px;
         margin: 5px;
+    }
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 767px) {
+    .header-text {
+        font-size: 1em;
+    }
+
+    .intro .profile-picture {
+        width: 120px;
+        height: 120px;
+    }
+
+    .intro h4 {
+        font-size: 1em;
+    }
+
+    .action-button {
+        width: 180px;
     }
 }
