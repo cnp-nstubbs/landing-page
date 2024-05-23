@@ -14,7 +14,7 @@ header {
 }
 
 .header-image {
-    background: url('4CCD8085-537F-469B-AAB9-71ADADEF427C.jpeg') no-repeat center center;
+    background: url('cnplogo.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     height: auto;
@@ -28,7 +28,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: bold;
     text-align: center;
     padding: 10px;
