@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #1A4570; /* Pantone 2955 */
+    background-color: #146776; /* Pantone 7474 */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -41,29 +41,30 @@ main {
 .intro h4 {
     font-size: 1.2em;
     margin-top: 10px;
-    color: #004080; /* Original CenterPoint Blue */
+    color: #146776; /* Pantone 7474 */
 }
 
 .buttons {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
-    flex-wrap: wrap;
     margin-bottom: 30px;
 }
 
 .action-button {
     display: inline-block;
-    background-color: #004080; /* Original CenterPoint Blue */
+    background-color: #146776; /* Pantone 7474 */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
+    width: 200px;
 }
 
 .action-button:hover {
-    background-color: #003366; /* Darker shade for hover */
+    background-color: #125a67; /* Darker shade for hover */
 }
 
 footer {
@@ -73,7 +74,7 @@ footer {
 }
 
 footer a {
-    color: #004080; /* Original CenterPoint Blue */
+    color: #146776; /* Pantone 7474 */
     text-decoration: none;
 }
 
