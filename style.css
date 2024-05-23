@@ -3,6 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
@@ -39,13 +41,28 @@ main {
     margin-bottom: 10px;
 }
 
-.contact-info a {
-    color: #004080;
-    text-decoration: none;
+.contact-info {
+    text-align: center;
 }
 
-.contact-info a:hover {
-    text-decoration: underline;
+.contact-info a.download-button {
+    display: inline-block;
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.contact-info a.download-button:hover {
+    background-color: #003366;
+}
+
+.bio {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .cta-button {
