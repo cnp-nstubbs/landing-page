@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #004080;
+    background-color: #1A4570; /* Pantone 2955 */
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -41,7 +41,7 @@ main {
 .intro h4 {
     font-size: 1.2em;
     margin-top: 10px;
-    color: #004080;
+    color: #004080; /* Original CenterPoint Blue */
 }
 
 .buttons {
@@ -54,7 +54,7 @@ main {
 
 .action-button {
     display: inline-block;
-    background-color: #004080;
+    background-color: #004080; /* Original CenterPoint Blue */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -63,7 +63,7 @@ main {
 }
 
 .action-button:hover {
-    background-color: #003366;
+    background-color: #003366; /* Darker shade for hover */
 }
 
 footer {
@@ -73,7 +73,7 @@ footer {
 }
 
 footer a {
-    color: #004080;
+    color: #004080; /* Original CenterPoint Blue */
     text-decoration: none;
 }
 
